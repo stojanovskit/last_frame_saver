@@ -1,5 +1,16 @@
 # Title: Last Frame Extractor
 
+## Watch the Example Video
+[![Watch the Example Video](https://img.youtube.com/vi/vTbwd43GKOs/0.jpg)](https://youtu.be/vTbwd43GKOs)
+
+## Notice
+- Change the path to your folder, this code is at the end of the file
+- you need python instaled on your PC
+```python
+if __name__ == "__main__":
+    folder_to_watch = r"E:\Downloads\videonew"  # Change this to your folder path
+    main(folder_to_watch)
+```
 
 # Overview:
 - This Python script monitors a specified folder for new video files and automatically extracts the last frame from each video. 
